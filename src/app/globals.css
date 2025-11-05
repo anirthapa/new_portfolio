@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Poppins", sans-serif;
+  --font-display: "Orbitron", "Rajdhani", sans-serif;
+
+  --color-bg-dark: #000000;
+  --color-bg-darker: #0a0a0a;
+  --color-titanium-light: #d6d6d6;
+  --color-titanium-mid: #a9a9a9;
+  --color-titanium-dark: #7a7a7a;
+  --color-accent: #00fff7;
+}
