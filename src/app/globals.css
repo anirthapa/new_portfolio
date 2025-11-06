@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+:root {
+  --titanium-light: #d7d7d9;
+  --titanium-mid: #9a9a9c;
+  --titanium-dark: #7e7e80;
+}
+
 @theme {
   --font-sans: "Inter", "Poppins", sans-serif;
   --font-display: "Orbitron", "Rajdhani", sans-serif;
