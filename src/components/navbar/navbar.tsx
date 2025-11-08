@@ -10,7 +10,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <motion.nav
-      className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/30 border-b border-titanium-dark/30 flex items-center justify-between px-12 py-5"
+      className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/30 border-b border-titanium-dark/30 flex items-center justify-between px-3 md:px-12 py-5"
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
